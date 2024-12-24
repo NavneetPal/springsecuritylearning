@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springsecuritylearning
+  datasource:
+    url: jdbc:mysql://localhost:3306/springsecuitydb
+    username: root
+    password: root
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    showSql: true
+  security:
+    user:
+      name: nakul
+      password: nakul
